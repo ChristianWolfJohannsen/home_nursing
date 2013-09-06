@@ -13,3 +13,7 @@ Sygeplejestuderende i klinisk praksis på modul 6 oplever for første gang i udd
 I hjemmesygeplejen træder patientens værdier og valg tydeligt frem og sygeplejen udøves under hensyntagen til patientens livssituation og hverdagsliv. Dette kan virke overvældende for de sygeplejestuderende og der er stor forskel på deres evne til analyse af komplekse sygeplejefaglige problemstillinger.
 
 Formålet med dette projekt er at udarbejde et undervisningsspil om hjemmesygepleje. Sygeplejerskeuddannelsen skal ifølge Bekendtgørelsen om uddannelse til professionsbachelor i sygepleje være praksisnær og professionsorienteret og et undervisningsspil om hjemmesygepleje giver mulighed for at visualisere indtryk fra patientens hjem og dermed synliggøre en kompleksitet, som kan være svær at formidle i en undervisningssituation. Desuden skal uddannelsen træne de studerendes IT kompetencer, hvilket undervisningsspillet også vil understøtte.
+
+Trello
+------
+[Trello workspace](https://trello.com/b/PfEgkMzn/home-nursing)
