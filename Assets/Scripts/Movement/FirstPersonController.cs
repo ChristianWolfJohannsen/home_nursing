@@ -14,7 +14,6 @@ public class FirstPersonController : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
-		Screen.lockCursor = true; // makes cursor invisible
 		cc = GetComponent<CharacterController>();
 	}
 	
@@ -22,13 +21,20 @@ public class FirstPersonController : MonoBehaviour {
 	void Update () 
 	{	
 		//Rotataion
+		if(Input.GetMouseButton(1))
+		{
+			Screen.lockCursor = true; // makes cursor invisible
+			float rotLeftRight = Input.GetAxis("Mouse X") * mousesense;
+			transform.Rotate(0,rotLeftRight,0);
 		
-		float rotLeftRight = Input.GetAxis("Mouse X") * mousesense;
-		transform.Rotate(0,rotLeftRight,0);
-		
-		verticalRotation -= Input.GetAxis("Mouse Y") * mousesense;
-		verticalRotation = Mathf.Clamp(verticalRotation, -updownRange, updownRange);
-		Camera.main.transform.localRotation = Quaternion.Euler(verticalRotation, 0 , 0);
+			verticalRotation -= Input.GetAxis("Mouse Y") * mousesense;
+			verticalRotation = Mathf.Clamp(verticalRotation, -updownRange, updownRange);
+			Camera.main.transform.localRotation = Quaternion.Euler(verticalRotation, 0 , 0);
+		}
+		if(!Input.GetMouseButton(1) && Screen.lockCursor == true)
+		{
+			Screen.lockCursor = false; // makes cursor visible
+		}
 		
 		//Movement
 		
