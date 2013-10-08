@@ -8,23 +8,53 @@ ModelImporter:
     100004: Ceiling
     100006: Floor
     100008: Walls
+    100010: BathroomFloor
+    100012: BathroomWalls
+    100014: BedroomWalls
+    100016: HallWayWall
+    100018: LivingroomWalls
+    100020: SemiWall
     400000: //RootNode
     400002: Bed
     400004: Ceiling
     400006: Floor
     400008: Walls
+    400010: BathroomFloor
+    400012: BathroomWalls
+    400014: BedroomWalls
+    400016: HallWayWall
+    400018: LivingroomWalls
+    400020: SemiWall
     2300000: Bed
     2300002: Ceiling
     2300004: Floor
     2300006: Walls
+    2300008: BathroomFloor
+    2300010: BathroomWalls
+    2300012: BedroomWalls
+    2300014: HallWayWall
+    2300016: LivingroomWalls
+    2300018: SemiWall
     3300000: Bed
     3300002: Ceiling
     3300004: Floor
     3300006: Walls
+    3300008: BathroomFloor
+    3300010: BathroomWalls
+    3300012: BedroomWalls
+    3300014: HallWayWall
+    3300016: LivingroomWalls
+    3300018: SemiWall
     4300000: Floor
     4300002: Ceiling
     4300004: Bed
     4300006: Walls
+    4300008: HallWayWall
+    4300010: LivingroomWalls
+    4300012: BedroomWalls
+    4300014: BathroomWalls
+    4300016: BathroomFloor
+    4300018: SemiWall
     7400000: Default Take
     9500000: //RootNode
   materials:
