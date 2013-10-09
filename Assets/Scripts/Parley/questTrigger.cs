@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class questTrigger : MonoBehaviour {
@@ -19,7 +19,6 @@ public class questTrigger : MonoBehaviour {
     {
         if (Input.GetMouseButtonDown(0))
         {
-            Debug.Log("virker");
             Parley.GetInstance().TriggerQuestEvent("fandtMedicin");
         }
     }
