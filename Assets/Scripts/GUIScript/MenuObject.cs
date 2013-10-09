@@ -21,6 +21,7 @@ public class MenuObject : MonoBehaviour {
 	{
 		if (isQuit) 
 		{
+			Debug.Log("FISK");
 			//Ved ikke hvorfor den ikke virker!!!
 			Application.Quit();
 		}
