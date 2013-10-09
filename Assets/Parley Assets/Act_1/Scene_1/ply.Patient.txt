@@ -14,7 +14,7 @@ false
 
 
 true
-2
+3
 [
 Hej Bo, hvordan gaar det?
 !_@~~@_!
@@ -26,6 +26,13 @@ true
 Jeg kan se at du har taget alt dit ekstra smertestillende siden i gaar, hvor har du ondt henne?
 !_@~~@_!
 3
+
+true
+]
+[
+asd
+!_@~~@_!
+-1
 
 true
 ]
