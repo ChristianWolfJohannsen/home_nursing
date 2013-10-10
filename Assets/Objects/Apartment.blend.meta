@@ -55,6 +55,16 @@ ModelImporter:
     4300014: BathroomWalls
     4300016: BathroomFloor
     4300018: SemiWall
+    6400000: BathroomFloor
+    6400002: BathroomWalls
+    6400004: Bed
+    6400006: BedroomWalls
+    6400008: Ceiling
+    6400010: Floor
+    6400012: HallWayWall
+    6400014: LivingroomWalls
+    6400016: SemiWall
+    6400018: Walls
     7400000: Default Take
     9500000: //RootNode
   materials:
@@ -75,7 +85,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

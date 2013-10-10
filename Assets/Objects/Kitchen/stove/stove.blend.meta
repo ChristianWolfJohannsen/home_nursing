@@ -1,0 +1,170 @@
+fileFormatVersion: 2
+guid: 03517c31672e3e545abf6d751ac7e36a
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: StoveDoorJoint_0
+    100002: Circle
+    100004: Circle.003
+    100006: Circle.002
+    100008: //RootNode
+    100010: Circle.001
+    100012: Circle_001
+    100014: StoveDoor
+    100016: Lamp.001
+    100018: Lamp.002
+    100020: Stove
+    100022: StoveDoorJoint
+    100024: Camera
+    100026: Lamp
+    100028: Circle_002
+    100030: Circle_003
+    400000: StoveDoorJoint_0
+    400002: Circle
+    400004: Circle.003
+    400006: Circle.002
+    400008: //RootNode
+    400010: Circle.001
+    400012: Circle_001
+    400014: StoveDoor
+    400016: Lamp.001
+    400018: Lamp.002
+    400020: Stove
+    400022: StoveDoorJoint
+    400024: Camera
+    400026: Lamp
+    400028: Circle_002
+    400030: Circle_003
+    2300000: Circle
+    2300002: Circle.003
+    2300004: Circle.002
+    2300006: Circle.001
+    2300008: Circle_001
+    2300010: Stove
+    2300012: Circle_002
+    2300014: Circle_003
+    3300000: Circle
+    3300002: Circle.003
+    3300004: Circle.002
+    3300006: Circle.001
+    3300008: Circle_001
+    3300010: Stove
+    3300012: Circle_002
+    3300014: Circle_003
+    4300000: Dial3
+    4300002: Dial4
+    4300004: Dial2
+    4300006: Dial1
+    4300008: StoveBottomDoor
+    4300010: StoveDoor
+    4300012: Stove
+    4300014: Circle.003
+    4300016: Circle.002
+    4300018: Circle.001
+    4300020: Circle
+    4300022: Circle_003
+    4300024: Circle_002
+    4300026: Circle_001
+    7400000: StoveOpenClose
+    7400002: stoveOpen
+    7400004: stoveClose
+    7400006: idle
+    7400008: open
+    7400010: close
+    11100000: //RootNode
+    13700000: StoveDoorJoint_0
+    13700002: StoveDoor
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: open
+      takeName: 
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: close
+      takeName: 
+      firstFrame: 26
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 0
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

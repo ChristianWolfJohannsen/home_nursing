@@ -1,0 +1,205 @@
+fileFormatVersion: 2
+guid: 50872f4fa326ba44698c4c5bde80766a
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: TopDoorJoint_0
+    100002: TopDoorJoint
+    100004: Camera
+    100006: Lamp.001
+    100008: Lamp.002
+    100010: Lamp
+    100012: Lamp.003
+    100014: Fridge
+    100016: FreezerDoor
+    100018: BottomHandle
+    100020: //RootNode
+    100022: DoorJoint_0
+    100024: DoorJoint
+    400000: TopDoorJoint_0
+    400002: TopDoorJoint
+    400004: Camera
+    400006: Lamp.001
+    400008: Lamp.002
+    400010: Lamp
+    400012: Lamp.003
+    400014: Fridge
+    400016: FreezerDoor
+    400018: BottomHandle
+    400020: //RootNode
+    400022: DoorJoint_0
+    400024: DoorJoint
+    2300000: Fridge
+    3300000: Fridge
+    4300000: BottomHandle
+    4300002: FreezerDoor
+    4300004: Fridge
+    7400000: BottomDoor
+    7400002: TopDoor
+    7400004: idle
+    7400006: idle
+    7400008: idle
+    7400010: idle
+    7400012: openBottom
+    7400014: closeBottom
+    7400016: openTop
+    7400018: closeTop
+    7400020: openBottom
+    7400022: closeBottom
+    7400024: openTop
+    7400026: closeTop
+    7400028: openBottom
+    7400030: closeBottom
+    7400032: openTop
+    7400034: closeTop
+    7400036: openBottom
+    7400038: closeBottom
+    7400040: openTop
+    7400042: closeTop
+    7400044: Action
+    7400046: TopDoor.001
+    7400048: idle0
+    7400050: idle0
+    7400052: idle0
+    7400054: idle0
+    7400152: openBottom1
+    7400154: closeBottom1
+    11100000: //RootNode
+    13700000: BottomHandle
+    13700002: FreezerDoor
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: openTop
+      takeName: 
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: closeTop
+      takeName: 
+      firstFrame: 26
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: openBottom
+      takeName: 
+      firstFrame: 51
+      lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: closeBottom
+      takeName: 
+      firstFrame: 76
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 0
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 
