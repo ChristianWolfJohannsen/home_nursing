@@ -4,6 +4,7 @@ using System.Collections;
 public class MenuObject : MonoBehaviour {
 	
 	public bool isQuit = false;
+	public bool loadNotes = false;
 	
 	
 	void OnMouseEnter()

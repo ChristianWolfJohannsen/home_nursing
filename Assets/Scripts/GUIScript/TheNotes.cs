@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.IO;
-using UnityEditor;
 
 public class TheNotes : MonoBehaviour {
 
@@ -25,16 +24,20 @@ public class TheNotes : MonoBehaviour {
 			{
 				if(Directory.Exists("Assets\\Noter")) 
 				{
-					DirectoryInfo dir = new DirectoryInfo("Assets\\Noter");
-					int count = dir.GetFiles().Length;
+//					DirectoryInfo dir = new DirectoryInfo("Assets\\Noter");
+					int count = Directory.GetFiles("Assets\\Noter", "*.txt").Length;
+					Debug.Log(count.ToString());
 					
 					countTo = count +1;
+					Debug.Log(countTo.ToString());
 					prefix = (string)countTo.ToString();
 					
 					string fileName = "";
 					fileName += prefix;
 					fileName += name;
 					fileName += suffix;
+					
+					Debug.Log(fileName);
 					
 					File.WriteAllText("Assets\\Noter\\"+fileName, textAreaString);
 					
@@ -43,10 +46,10 @@ public class TheNotes : MonoBehaviour {
 				}
 				else
 				{
-					AssetDatabase.CreateFolder("Assets", "Noter");
+					Directory.CreateDirectory("Assets\\Noter");
 					
-					DirectoryInfo dir = new DirectoryInfo("Assets\\Noter");
-					int count = dir.GetFiles().Length;
+//					DirectoryInfo dir = new DirectoryInfo("Assets\\Noter");
+					int count = Directory.GetFiles("Assets\\Noter", "*.txt").Length;
 					
 					countTo = count +1;
 					prefix = (string)countTo.ToString();
