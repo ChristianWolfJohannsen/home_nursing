@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.IO;
+using System;
 
 public class MenuObject : MonoBehaviour {
 	
@@ -28,6 +30,20 @@ public class MenuObject : MonoBehaviour {
 		}
 		else
 		{
+			try
+        	{
+				
+				string[] filepaths = Directory.GetFiles("Assets\\Noter");
+				foreach(string filename in filepaths) {
+					File.Delete(filename);
+				}
+			}
+			catch (Exception e)
+	        {
+	            Debug.Log("The file could not be read:");
+	            Debug.Log(e.Message);
+	        }
+			
 			Application.LoadLevel(1);
 		}
 	}
