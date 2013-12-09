@@ -1,4 +1,4 @@
-10
+11
 [
 0
 40
@@ -33,7 +33,7 @@ false
 true
 ]
 [
-Hej Bo, du ser lidt træt ud idag?
+Hej Bo, du ser lidt traet ud idag?
 !_@~~@_!
 4
 
@@ -41,7 +41,7 @@ false
 true
 ]
 [
-Du har fået et tryksår, jeg tror vi skal sætte et plaster på.
+Du har faaet et tryksaar, jeg tror vi skal saette et plaster paa.
 !_@~~@_!
 7
 
@@ -49,7 +49,7 @@ false
 true
 ]
 [
-Jeg kan se, at du ikke har mad i køleskabet, skal jeg hjælpe dig med at bestille noget?
+Jeg kan se, at du ikke har mad i koeleskabet, skal jeg hjaelpe dig med at bestille noget?
 !_@~~@_!
 9
 
@@ -68,7 +68,7 @@ Fint nok
 !_@~~@_!
 false
 false
-startMedicinQuest
+
 0
 
 
@@ -85,7 +85,7 @@ true
 [
 Jeg finder lige dit medicin
 !_@~~@_!
--1
+10
 
 false
 true
@@ -133,7 +133,7 @@ true
 51
 -1
 
-Jeg har sgu næsten ikke sovet i nat.
+Jeg har sgu naesten ikke sovet i nat.
 !_@~~@_!
 
 !_@~~@_!
@@ -146,7 +146,7 @@ false
 true
 2
 [
-Nej, det kan være svært..
+Nej, det kan vaere svaert..
 !_@~~@_!
 -1
 
@@ -154,7 +154,7 @@ false
 true
 ]
 [
-Hvordan kan det være?
+Hvordan kan det vaere?
 !_@~~@_!
 5
 
@@ -167,7 +167,7 @@ true
 52
 -1
 
-Det gør virkelig ondt i mit haleben.
+Det goer virkelig ondt i mit haleben.
 !_@~~@_!
 
 !_@~~@_!
@@ -180,7 +180,7 @@ false
 true
 1
 [
-Sidst jeg var her var du ved at få et tryksår bagpå, må jeg se hvordan det ser ud idag?
+Sidst jeg var her var du ved at faa et tryksaar bagpaa, maa jeg se hvordan det ser ud idag?
 !_@~~@_!
 6
 
@@ -224,7 +224,7 @@ fandtHaleben
 true
 1
 [
-Det er vigtigt, at du får noget at spise, så det kan hele.
+Det er vigtigt, at du faar noget at spise, saa det kan hele.
 !_@~~@_!
 8
 
@@ -264,6 +264,24 @@ false
 
 0
 fandtIngenMad
+
+true
+0
+]
+[
+10
+61
+-1
+
+ok.
+!_@~~@_!
+
+!_@~~@_!
+false
+false
+startMedicinQuest
+0
+
 
 true
 0
