@@ -7,6 +7,7 @@ public class MenuObject : MonoBehaviour {
 	
 	public bool isQuit = false;
 	public bool loadNotes = false;
+	public bool isLevel1 = false;
 	
 	
 	void OnMouseEnter()
@@ -43,8 +44,15 @@ public class MenuObject : MonoBehaviour {
 	            Debug.Log("The file could not be read:");
 	            Debug.Log(e.Message);
 	        }
-			
-			Application.LoadLevel(1);
+
+			if (isLevel1)
+			{
+				Application.LoadLevel(1);
+			}
+			else
+			{
+				Application.LoadLevel(3);
+			}
 		}
 	}
 }
