@@ -4,10 +4,9 @@ using System.IO;
 using System;
 
 public class MenuObject : MonoBehaviour {
-	
-	public bool isQuit = false;
+
 	public bool loadNotes = false;
-	public bool isLevel1 = false;
+	public int level;
 	
 	
 	void OnMouseEnter()
@@ -23,36 +22,28 @@ public class MenuObject : MonoBehaviour {
 	
 	void OnMouseDown()
 	{
-		if (isQuit) 
+		switch (level) 
 		{
-			Debug.Log("FISK");
-			//Ved ikke hvorfor den ikke virker!!!
-			Application.Quit();
+		case 0: Application.Quit(); break;
+		case 1: Application.LoadLevel(1); DeleteFiles(); break;
+		case 2: Application.LoadLevel(3); DeleteFiles(); break;
 		}
-		else
-		{
-			try
-        	{
-				
-				string[] filepaths = Directory.GetFiles("Assets\\Noter");
-				foreach(string filename in filepaths) {
-					File.Delete(filename);
-				}
-			}
-			catch (Exception e)
-	        {
-	            Debug.Log("The file could not be read:");
-	            Debug.Log(e.Message);
-	        }
+	}
 
-			if (isLevel1)
-			{
-				Application.LoadLevel(1);
+	private void DeleteFiles()
+	{
+		try
+		{
+			
+			string[] filepaths = Directory.GetFiles("Assets\\Noter");
+			foreach(string filename in filepaths) {
+				File.Delete(filename);
 			}
-			else
-			{
-				Application.LoadLevel(3);
-			}
+		}
+		catch (Exception e)
+		{
+			Debug.Log("The file could not be read:");
+			Debug.Log(e.Message);
 		}
 	}
 }
