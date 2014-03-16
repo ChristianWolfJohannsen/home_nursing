@@ -20,19 +20,41 @@ public class JokerNavigator : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-		NextRandomTarget ();
+		RandomPatrolling ();
 	}
 
-	void NextRandomTarget()
+	void Patrolling()
+	{
+		if (nav.remainingDistance < nav.stoppingDistance) {
+						patrolTimer += Time.deltaTime;
+
+						if (patrolTimer >= patrolWaitTime) {
+								if (wayPointIndex == patrolWayPoints.Length - 1)
+				
+										wayPointIndex = 0;
+								else
+				
+										wayPointIndex++;
+
+								patrolTimer = 0;
+
+						}
+				} else
+
+						patrolTimer = 0;
+
+		nav.destination = patrolWayPoints [wayPointIndex].position;
+	}
+
+	void RandomPatrolling()
 	{
 		if (nav.remainingDistance < nav.stoppingDistance) 
 		{
-				if(wayPointIndex == patrolWayPoints.Length - 1)
-					wayPointIndex = 0;
-				else
-					wayPointIndex++;
+			patrolTimer += Time.deltaTime;
 
-					nav.destination = patrolWayPoints[wayPointIndex].position;
+			int randomNumber = Random.Range(0, 5);
+
+			nav.destination = patrolWayPoints[randomNumber].position;
 		}
 	}
 }
