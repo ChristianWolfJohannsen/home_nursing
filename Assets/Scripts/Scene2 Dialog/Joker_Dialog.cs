@@ -1,11 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
 public class Joker_Dialog : MonoBehaviour {
 	public string[] answerButtons;
 	public string[] questions;
 	bool DisplayDialog = false;
 	bool ActivateQuest = false;
+	bool QuestionAsked = false;
+	public int randomQuest;
 	
 	
 	void Start () {
@@ -17,25 +20,32 @@ public class Joker_Dialog : MonoBehaviour {
 	}
 
 	void OnGUI(){
-		int randomQuestion = Random.Range(0,2);
+
 
 		GUILayout.BeginArea (new Rect (10, 10, 400, 400));
-		if (DisplayDialog) {
 
 
 
-			GUILayout.Label (questions[randomQuestion]);
+		if (DisplayDialog ) {
+
+
+			GUILayout.Label (questions[randomQuest]);
+			Debug.Log("Quest asked");
+			
 
 			if(GUILayout.Button(answerButtons[0])){
 
 				DisplayDialog = false;
-			}
-		}
+				
 
+			}
+				Debug.Log("Answers given");
+
+		}
+		GUILayout.EndArea ();
 
 	}
-			      
-	
+
 //	void OnGUI(){
 //		GUILayout.BeginArea (new Rect(70, 60, 400, 400));
 //		if (DisplayDialog && !ActivateQuest) {
@@ -70,6 +80,7 @@ public class Joker_Dialog : MonoBehaviour {
 	
 	void OnTriggerEnter(){
 		DisplayDialog = true;
+		randomQuest = Random.Range (0, 3);
 
 	}
 	
