@@ -52,7 +52,7 @@ public class JokerNavigator : MonoBehaviour {
 		{
 			patrolTimer += Time.deltaTime;
 			
-			int randomNumber = Random.Range(0, 5);
+			int randomNumber = Random.Range(0, patrolWayPoints.Length);
 			
 			nav.destination = patrolWayPoints[randomNumber].position;
 		}
@@ -63,11 +63,11 @@ public class JokerNavigator : MonoBehaviour {
 		Debug.Log ("Something has entered");
 		if (other.gameObject.tag == "Player")
 		{
-			Debug.Log("Player has entered");
+			//Debug.Log("Player has entered");
 			
 			nav.speed = 0;
 			
-			Debug.Log("Joker should be still");
+			//Debug.Log("Joker should be still");
 		}
 	}
 	
@@ -75,11 +75,11 @@ public class JokerNavigator : MonoBehaviour {
 	{
 		if (player.gameObject.tag == "Player")
 		{
-			Debug.Log("Player has left Joker all alone... :(");
+			//Debug.Log("Player has left Joker all alone... :(");
 			
 			nav.speed = 3.5f;
 			
-			Debug.Log("Joker should be still");
+			//Debug.Log("Joker should be still");
 		}
 	}
 }
