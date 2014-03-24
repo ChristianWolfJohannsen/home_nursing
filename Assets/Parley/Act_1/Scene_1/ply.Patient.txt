@@ -11,6 +11,10 @@ Hej
 false
 false
 
+1
+player
+DialogStarted
+false
 0
 
 
