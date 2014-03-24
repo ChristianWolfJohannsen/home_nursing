@@ -67,11 +67,16 @@ public class OpenMedKit : MonoBehaviour
 			isOpen = false;
 		}
 	}
-	void MedKit()
+ 	void MedKit()
 	{
-		Debug.Log ("The medkit is now empty");
-		
-		cInv.items = items;
+		Debug.Log ("You take all the items");
+
+		foreach (var item in items) 
+		{
+			cInv.items.Add(item);
+		}
+
+		items.Clear ();
 		cInv.DoSomething ();
 		
 	}
