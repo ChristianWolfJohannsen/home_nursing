@@ -11,6 +11,8 @@ public class MoviePlayer : MonoBehaviour
 	{
 		isRunning = false;
 		renderer.material.mainTexture = movTexture;
+		movTexture.loop = true;
+		audio.loop = true;
 	}
 
 
@@ -24,9 +26,9 @@ public class MoviePlayer : MonoBehaviour
 		}
 	 	else if (isRunning && Input.GetMouseButtonDown(0)) 
 		{
-			movTexture.Stop();
+			movTexture.Pause();
 			isRunning = false;
-			audio.Stop();
+			audio.Pause();
 		}
 	}
 }
